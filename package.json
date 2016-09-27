@@ -1,5 +1,5 @@
 {
-  "name": "mdast-react",
+  "name": "m3.intl.mdast-react",
   "version": "0.2.0",
   "description": "Compile Markdown to React with mdast",
   "license": "MIT",
@@ -11,12 +11,15 @@
     "mdast"
   ],
   "dependencies": {
-    "react": "^0.13.3",
+    "react": "^0.14.8",
     "repeat-string": "^1.5.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mapbox/mdast-react.git"
+    "url": "https://github.com/chris-rowley-m3/remark-react.git"
+  },
+  "publishConfig": {
+    "registry": "http://npm.m3-dev.co.uk"
   },
   "author": {
     "name": "Titus Wormer",
